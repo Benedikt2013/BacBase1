@@ -1,0 +1,67 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{HIT}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Mentzer}{M.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{M1}
+  \strng{fullhash}{M1}
+  \field{sortinit}{M}
+  \field{title}{Minutes}
+  \field{year}{1975}
+\endentry
+
+\entry{hyp}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Tepperwein}{T.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{T1}
+  \strng{fullhash}{T1}
+  \field{sortinit}{T}
+  \field{title}{Hypnose}
+  \field{year}{2001}
+\endentry
+
+\entry{Schach}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Öhner}{h.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{h1}
+  \strng{fullhash}{h1}
+  \field{sortinit}{H}
+  \field{title}{Das Schachspiel}
+  \field{year}{1944}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

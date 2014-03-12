@@ -1,0 +1,28 @@
+\documentclass[11pt,a4paper,parskip]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage[babel,german=guillemets]{csquotes}
+\usepackage[backend=bibtex8]{biblatex}
+\bibliography{latexlit}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{siunitx}%SI Einheiten etc.
+\usepackage[german]{fancyref}%möglicherweise rausnehmen oder justieren
+\usepackage{booktabs} %Tabellen Horizontale Linier dick darstellen
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\begin{document}
+\section{Start}
+noch mal test über das Schachspiel \autocite{Schach} oder aber auch \autocite{HIT} und wieder \label{sec:test} ein neues Buch \autocite{hyp}nun ist es aber schon seit vielen Jahren bekannt das Autos immer teurer werden.
+\section{Mittel}
+Auch hier etwas dazu schreiben 
+\newpage
+\section{Zuletzt}
+So nun mal am Ende
+\subsection{Nocheinmal}
+hier werden wir es probieren siehe \fref{sec:test}
+\printbibliography 
+\end{document}  
